@@ -8,14 +8,14 @@ OpenCV (cv2)
 Usage
 To run the code, save an input image as 01.png in the same directory as the script. Then, run the script with the following command:
 
-python
-Copy code
 python canny_edge_detection.py
+
 This will display three windows with the following images:
 
 Original: the original input image
 Grayscale: the grayscale version of the input image
 Edges: the edges detected in the input image using the Canny edge detection algorithm
+
 The resulting grayscale and edges images are also saved as gray_output.png and canny.png, respectively, in the same directory as the script.
 
 Parameters
